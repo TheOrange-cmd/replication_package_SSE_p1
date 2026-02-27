@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "ublock_extension": "C:\\Users\\danie\\Documents\\GitHub\\course_sustainableSE\\2026\\p1_measuring_software\\POC\\extensions\\ublock_chrome",
+    "playwright_user_data": "./playwright_user_data",
+    "libre_hardware_monitor_dll": "C:\\Users\\danie\\AppData\\Local\\Microsoft\\WinGet\\Packages\\LibreHardwareMonitor.LibreHardwareMonitor_Microsoft.Winget.Source_8wekyb3d8bbwe\\LibreHardwareMonitorLib.dll",
+    "output_csv": "results_combined.csv"
+  },
+  "measurement": {
+    "warmup_seconds": 300,
+    "duration_seconds": 30,
+    "cooldown_seconds": 10,
+    "wait_between_actions_mean_s": 2.0,
+    "wait_between_actions_std_s": 0.5
+  },
+  "analysis": {
+    "power_column_name": "Cpu_AMD_Ryzen_7_5700U_with_Radeon_Graphics_Package_Power",
+    "blocklist_file": "easylist_domains.txt"
+  }
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "name": "telegraaf",
+    "urls": ["https://www.telegraaf.nl/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept main cookie banner",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Akkoord" },
+        "is_optional": true
+      },
+      {
+        "type": "click",
+        "description": "Dismiss 'Maybe Later' popup",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Misschien later" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "weeronline",
+    "urls": ["https://www.weeronline.nl/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept personalized ads",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Gratis met persoonlijke advertenties" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "wikipedia",
+    "urls": ["https://nl.wikipedia.org/wiki/Charlie_Kirk"],
+    "actions": []
+  },
+  {
+    "name": "ad",
+    "urls": ["https://www.ad.nl/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept main cookie banner",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Akkoord" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "nu",
+    "urls": ["https://www.nu.nl/algemeen"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept main cookie banner",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Akkoord" },
+        "is_optional": true
+      },
+      {
+        "type": "click",
+        "description": "Close notifications window",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "sluit venster" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "marktplaats",
+    "urls": ["https://www.marktplaats.nl/cp/91/auto-kopen/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept cookies inside iframe",
+        "is_iframe": true,
+        "iframe_selector": "iframe[title=\"SP Consent Message\"]",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Accepteren", "exact": true },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "youtube",
+    "urls": ["https://www.youtube.com/watch?v=7ZhdXgRfxHI"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept cookies",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Accept the use of cookies and other data for the purposes described" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "tweakers",
+    "urls": ["https://tweakers.net/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept main cookie banner",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Akkoord" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "aliexpress",
+    "urls": ["https://nl.aliexpress.com/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept cookies",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Cookies accepteren" },
+        "is_optional": true
+      },
+      {
+        "type": "click",
+        "description": "Close new user popup",
+        "selector_type": "locator",
+        "selector_value": "._24EHh, .pop-close-btn",
+        "is_optional": true
+      },
+      {
+        "type": "click",
+        "description": "Deny notifications",
+        "selector_type": "text",
+        "selector_value": "Niet toestaan",
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "reddit",
+    "urls": ["https://www.reddit.com/r/all"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept all cookies",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Accept All" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "bol",
+    "urls": ["https://www.bol.com/nl/nl/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept all cookies",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Alles accepteren" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "9gag",
+    "urls": ["https://9gag.com/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept cookies inside iframe",
+        "is_iframe": true,
+        "iframe_selector": "iframe[title=\"SP Consent Message\"]",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Accept" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "dumpert",
+    "urls": ["https://www.dumpert.nl/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Accept main cookie banner",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Akkoord" },
+        "is_optional": true
+      }
+    ]
+  },
+  {
+    "name": "imgur",
+    "urls": ["https://imgur.com/"],
+    "actions": [
+      {
+        "type": "click",
+        "description": "Consent to cookies",
+        "selector_type": "role",
+        "selector_value": "button",
+        "options": { "name": "Consent" },
+        "is_optional": true
+      }
+    ]
+  }
+]
