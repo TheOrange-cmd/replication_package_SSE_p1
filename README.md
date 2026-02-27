@@ -4,7 +4,6 @@
 ## Requirements
 
 - Windows (Linux and macOS are not supported)
-- Chrome, Edge, and Firefox installed
 - Conda installed (mamba, uv, poetry, or a plain venv also work)
 - Administrator access
 
@@ -17,8 +16,8 @@
 ### 1. Clone the repository and dependencies
 
 ```bash
-git clone [your-repo-url]
-cd [your-repo-folder]
+git clone https://github.com/TheOrange-cmd/replication_package_SSE_p1.git
+cd replication_package_SSE_p1
 git clone https://github.com/effeect/LibreHardwareMonitorCLI.git
 ```
 
