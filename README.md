@@ -16,8 +16,9 @@
 ### 1. Clone the repository and dependencies
 
 ```bash
+cd [your-working-folder]
 git clone https://github.com/TheOrange-cmd/replication_package_SSE_p1.git
-cd replication_package_SSE_p1
+cd replication_package_SSE_p1 
 git clone https://github.com/effeect/LibreHardwareMonitorCLI.git
 ```
 
@@ -95,7 +96,8 @@ The experiment script requires administrator access to read hardware sensors.
 
 ```bash
 conda activate SSE
-cd [path_to_project]
+cd [your-working-folder] 
+cd replication_package_SSE_p1 
 python browse.py
 ```
 
